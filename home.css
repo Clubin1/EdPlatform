@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.blue-text{
+    color:rgb(51, 173, 255)!important;
+}
+.bg-unique{
+    background-color: grey!important;
+}
+nav{
+    text-transform: uppercase;
+    z-index: 1!important;
+}
+
+#navBar{
+    height: 6rem;
+    transition: all 150ms ease;
+    z-index: 1!important;
+
+  }
+  
+nav li{
+    font-weight: 400;
+}
+#navbar{
+    background-color: #ffffff!important;
+}
+nav{
+    position: fixed!important;
+    width: 100%!important;
+    z-index: 100!important;
+    transition: 300ms ease all;
+    background-color: #ffffff!important;
+
+}
+
+.section-1{
+    height: 100rem;
+}
+.navbar-brand img{
+    height: 2rem;
+    position: relative;
+    top: .7rem;
+}
+.navbar li a:hover{
+    color:rgb(51, 173, 255)!important;
+}
+.navbar li a{
+    color:rgb(95, 95, 95)!important;
+    font-weight: 600;
+}
+.dropdown-menu a:hover{
+    background-color: #666666!important;
+}
+.dropdown-item li a {
+    font-weight: 700;
+}
+
+.color-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 26rem;
+    text-shadow: .6rem .6rem 1rem black;
+
+}
+/* Footer Section*/
+.lower-footer{
+    margin-top:.3rem;
+  }
+  footer{
+    position: relative;
+  }
+  .footer-distributed {
+    background-color: #131313;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #bebebe;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bebebe;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color:rgb(51, 173, 255)!important;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+
+  @media(max-width:798px) {
+    .row-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .img-container{
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+/* Landing Image */
+.home-inner{
+    background-image: url(img/landing-1.jpg);
+    opacity: .4;
+    height: 100vh;
+    width: 100%;
+  }
+  /* Landing Text */
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: rgb(21, 64, 77);
+    animation: fadeIn 2s;
+    text-transform: uppercase;
+  }
+  /* Landing Heading1 */
+  .caption h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0rem;
+  }
+
+  .caption-1 {
+    width: 100%;
+    max-width: 100%;
+    top: 8rem;
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    font-size: .1rem!important;
+    font-weight: 600;
+    letter-spacing: 0rem;
+
+  }
+  /* Landing Heading3 */
+  .caption h3 {
+    font-size: 1.3rem;
+    padding-bottom: 1.6rem;
+  }
+
+.btn{
+    color:rgb(255, 255, 255);
+    border-radius: 0;
+    border:#ffffff 2px solid;
+  }
+  .btn:hover{
+    background-color:#ff237e;
+    color:rgb(255, 255, 255);
+    border:#ff237e 2px solid;
+
+  }
